@@ -50,6 +50,4 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3001, () => {
-  console.log("CalmCasa Backend running on port 3001");
-});
+server.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
